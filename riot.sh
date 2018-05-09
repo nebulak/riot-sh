@@ -6,28 +6,7 @@ UPDATE_URL="https://nebulak.github.io/riot-sh"
 VERSION="0.0.0"
 COMMAND=$1
 
-banner
 
-case "$1" in
-        install)
-            install # install all package
-            ;;
-
-        update)
-            install # update core and packages
-            ;;
-
-        post-update)
-            update # update core and packages
-            ;;
-        uninstall)
-            uninstall # uninstall one or all packages
-            ;;
-        *)
-            echo $"Usage: $0 {install|update|uninstall}"
-            exit 1
-
-esac
 
 
 ################ Functions ##############################
@@ -169,3 +148,30 @@ wget_update() {
 
 # //TODO: do semver check of version before update
 # source: https://github.com/fsaintjacques/semver-tool/blob/master/src/semver
+
+
+
+
+
+banner
+
+case "$1" in
+        install)
+            install # install all package
+            ;;
+
+        update)
+            install # update core and packages
+            ;;
+
+        post-update)
+            update # update core and packages
+            ;;
+        uninstall)
+            uninstall # uninstall one or all packages
+            ;;
+        *)
+            echo $"Usage: $0 {install|update|uninstall}"
+            exit 1
+
+esac
