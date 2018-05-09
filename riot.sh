@@ -133,7 +133,6 @@ check_upgrade () {
 }
 
 
-
 wget_update() {
   sudo wget "$UPDATE_URL/version"
   sudo wget "$UPDATE_URL/riot.sh"
