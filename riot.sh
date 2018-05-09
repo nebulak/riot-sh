@@ -6,6 +6,8 @@ UPDATE_URL="https://nebulak.github.io/riot-sh"
 VERSION="0.0.0"
 COMMAND=$1
 
+banner
+
 case "$1" in
         install)
             install # install all package
