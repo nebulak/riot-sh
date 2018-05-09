@@ -132,10 +132,7 @@ check_upgrade () {
   echo "I'm VERSION $VERSION, already the latest version."
 }
 
-update() {
-  wget_update()
 
-}
 
 wget_update() {
   sudo wget "$UPDATE_URL/version"
@@ -146,6 +143,9 @@ wget_update() {
   # $SCRIPT_NAME $ARGS
 }
 
+update() {
+  wget_update
+}
 # //TODO: do semver check of version before update
 # source: https://github.com/fsaintjacques/semver-tool/blob/master/src/semver
 
