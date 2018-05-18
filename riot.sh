@@ -59,8 +59,8 @@ install() {
 
   # add backports-repo
   # //TODO: check if backports repo is already added
-  printf "deb http://deb.debian.org/debian stretch-backports main contrib" > /etc/apt/sources.list.d/stretch-backports.list
-  apt-get update
+  # printf "deb http://deb.debian.org/debian stretch-backports main contrib" > /etc/apt/sources.list.d/stretch-backports.list
+  # apt-get update
 
   ################ Core dependencies ######################
 
@@ -78,11 +78,11 @@ install() {
   ################ GAJIM + OMEMO ##########################
   # source: https://hackershell.noblogs.org/post/2017/04/08/gajim-omemo-mit-debian-8-jessie/
 
-  apt-get remove gajim
-  apt-get update
-  apt-get install gajim
+  # apt-get remove gajim
+  # apt-get update
+  # apt-get install gajim
   # apt-get install python-axolotl python-axolotl-curve25519
-  apt-get install gajim-omemo gajim-httpupload gajim-urlimagepreview gajim-triggers
+  # apt-get install gajim-omemo gajim-httpupload gajim-urlimagepreview gajim-triggers
 
 
   ################# KeePassXC  + Browser-Integration ###############################
