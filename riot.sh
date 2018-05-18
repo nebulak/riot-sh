@@ -70,10 +70,10 @@ install() {
 
   # add appimaged
   # source: https://github.com/AppImage/AppImageKit/blob/appimagetool/master/README.md#appimaged-usage
-  wget -c "https://github.com/AppImage/AppImageKit/releases/download/continuous/appimaged_1.0_amd64.deb"
-  sudo dpkg -i appimaged_*.deb
-  systemctl --user add-wants default.target appimaged
-  systemctl --user start appimaged
+  # wget -c "https://github.com/AppImage/AppImageKit/releases/download/continuous/appimaged_1.0_amd64.deb"
+  # sudo dpkg -i appimaged_*.deb
+  # systemctl --user add-wants default.target appimaged
+  # systemctl --user start appimaged
 
   ################ GAJIM + OMEMO ##########################
   # source: https://hackershell.noblogs.org/post/2017/04/08/gajim-omemo-mit-debian-8-jessie/
@@ -94,7 +94,7 @@ install() {
   # //TODO: install
   # example: ./appimaged-x86_64.AppImage --install
 
-  sudo install-mozilla-addon https://addons.mozilla.org/firefox/downloads/latest/881663/addon-881663-latest.xpi
+  # sudo install-mozilla-addon https://addons.mozilla.org/firefox/downloads/latest/881663/addon-881663-latest.xpi
 
   ################ Thunderbird + Enigmail + Monterail ###################
   # apt-get install thunderbird
