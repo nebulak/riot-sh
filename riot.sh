@@ -46,8 +46,6 @@ install() {
   usermod -aG sudo yourusername
   # todo: reboot machine
 
-  sudo apt-get install jq -y
-
   ################ Install ansible ########################
   
   deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main
@@ -55,60 +53,6 @@ install() {
   sudo apt-get update
   sudo apt-get install ansible
 
-  ################ Add backports-repo #####################
-
-  # add backports-repo
-  # //TODO: check if backports repo is already added
-  # printf "deb http://deb.debian.org/debian stretch-backports main contrib" > /etc/apt/sources.list.d/stretch-backports.list
-  # apt-get update
-
-  ################ Core dependencies ######################
-
-  # add moz-install-addon script
-  #sudo wget -O /usr/local/sbin/install-mozilla-addon http://bernaerts.dyndns.org/download/ubuntu/install-mozilla-addon
-  #sudo chmod +x /usr/local/sbin/install-mozilla-addon
-
-  # add appimaged
-  # source: https://github.com/AppImage/AppImageKit/blob/appimagetool/master/README.md#appimaged-usage
-  # wget -c "https://github.com/AppImage/AppImageKit/releases/download/continuous/appimaged_1.0_amd64.deb"
-  # sudo dpkg -i appimaged_*.deb
-  # systemctl --user add-wants default.target appimaged
-  # systemctl --user start appimaged
-
-  ################ GAJIM + OMEMO ##########################
-  # source: https://hackershell.noblogs.org/post/2017/04/08/gajim-omemo-mit-debian-8-jessie/
-
-  # apt-get remove gajim
-  # apt-get update
-  # apt-get install gajim
-  # apt-get install python-axolotl python-axolotl-curve25519
-  # apt-get install gajim-omemo gajim-httpupload gajim-urlimagepreview gajim-triggers
-
-
-  ################# KeePassXC  + Browser-Integration ###############################
-  # //TODO: add appimaged
-  # https://github.com/AppImage/AppImageKit/blob/appimagetool/master/README.md#appimaged-usage
-  # LATEST_TAG= $(get_latest_release 'keepassxreboot/keepassxc')
-  # wget https://github.com/keepassxreboot/keepassxc/releases/download/$LATEST_TAG/KeePassXC-$LATEST_TAG-x86_64.AppImage
-  # //TODO: move to right directory
-  # //TODO: install
-  # example: ./appimaged-x86_64.AppImage --install
-
-  # sudo install-mozilla-addon https://addons.mozilla.org/firefox/downloads/latest/881663/addon-881663-latest.xpi
-
-  ################ Thunderbird + Enigmail + Monterail ###################
-  # apt-get install thunderbird
-  # apt-get install enigmail
-
-  ############### TorBirdy ##################################
-  # //TODO: download & install from moziila
-  # apt-get install torbirdy
-
-  ############### Tor & Tor-Browser #########################
-  # source: https://wiki.debian.org/TorBrowser#Debian_9_.22Stretch.22
-  # apt-get install torbrowser-launcher -t stretch-backports
-  # //TODO: delete
-  # torbrowser-launcher
 }
 
 # update riot script
@@ -153,10 +97,6 @@ update() {
 }
 # //TODO: do semver check of version before update
 # source: https://github.com/fsaintjacques/semver-tool/blob/master/src/semver
-
-
-
-
 
 banner
 
