@@ -65,8 +65,8 @@ install() {
   ################ Core dependencies ######################
 
   # add moz-install-addon script
-  sudo wget -O /usr/local/sbin/install-mozilla-addon http://bernaerts.dyndns.org/download/ubuntu/install-mozilla-addon
-  sudo chmod +x /usr/local/sbin/install-mozilla-addon
+  #sudo wget -O /usr/local/sbin/install-mozilla-addon http://bernaerts.dyndns.org/download/ubuntu/install-mozilla-addon
+  #sudo chmod +x /usr/local/sbin/install-mozilla-addon
 
   # add appimaged
   # source: https://github.com/AppImage/AppImageKit/blob/appimagetool/master/README.md#appimaged-usage
@@ -88,8 +88,8 @@ install() {
   ################# KeePassXC  + Browser-Integration ###############################
   # //TODO: add appimaged
   # https://github.com/AppImage/AppImageKit/blob/appimagetool/master/README.md#appimaged-usage
-  LATEST_TAG= $(get_latest_release 'keepassxreboot/keepassxc')
-  wget https://github.com/keepassxreboot/keepassxc/releases/download/$LATEST_TAG/KeePassXC-$LATEST_TAG-x86_64.AppImage
+  # LATEST_TAG= $(get_latest_release 'keepassxreboot/keepassxc')
+  # wget https://github.com/keepassxreboot/keepassxc/releases/download/$LATEST_TAG/KeePassXC-$LATEST_TAG-x86_64.AppImage
   # //TODO: move to right directory
   # //TODO: install
   # example: ./appimaged-x86_64.AppImage --install
@@ -97,16 +97,16 @@ install() {
   sudo install-mozilla-addon https://addons.mozilla.org/firefox/downloads/latest/881663/addon-881663-latest.xpi
 
   ################ Thunderbird + Enigmail + Monterail ###################
-  apt-get install thunderbird
-  apt-get install enigmail
+  # apt-get install thunderbird
+  # apt-get install enigmail
 
   ############### TorBirdy ##################################
   # //TODO: download & install from moziila
-  apt-get install torbirdy
+  # apt-get install torbirdy
 
   ############### Tor & Tor-Browser #########################
   # source: https://wiki.debian.org/TorBrowser#Debian_9_.22Stretch.22
-  apt-get install torbrowser-launcher -t stretch-backports
+  # apt-get install torbrowser-launcher -t stretch-backports
   # //TODO: delete
   # torbrowser-launcher
 }
