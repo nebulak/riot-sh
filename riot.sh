@@ -52,7 +52,8 @@ install() {
   sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
   sudo apt-get update
   sudo apt-get install ansible
-  sudo ansible-pull -U https://github.com/nebulak/riot-ansible.git
+  echo $(whoami)
+  sudo ansible-pull -U https://github.com/nebulak/riot-ansible.git -e "working_user=$(whoami)"
   
 }
 
