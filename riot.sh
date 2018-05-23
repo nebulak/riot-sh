@@ -40,19 +40,19 @@ install() {
   ############### Core Dependencies #######################
   # //TODO: add user to sudoers
   # source: https://unix.stackexchange.com/questions/354928/bash-sudo-command-not-found
-  su -
-  apt-get install sudo -y
+  #su -
+  #apt-get install sudo -y
   # todo: ask for username
-  usermod -aG sudo yourusername
+  #usermod -aG sudo yourusername
   # todo: reboot machine
 
   ################ Install ansible ########################
-  
+  # source: https://opensource.com/article/18/3/manage-workstation-ansible
   deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main
   sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
   sudo apt-get update
   sudo apt-get install ansible
-
+  sudo ansible-pull -U https://github.com/nebulak/riot-ansible.git
 }
 
 # update riot script
