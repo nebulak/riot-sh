@@ -58,7 +58,7 @@ install() {
   apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
   apt-get update
   apt-get install ansible
-  ansible-pull -U https://github.com/nebulak/riot-ansible.git --become-user=$(whoami)
+  ansible-pull -U https://github.com/nebulak/riot-ansible.git
 }
 
 # update riot script
