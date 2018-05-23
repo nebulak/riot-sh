@@ -48,17 +48,12 @@ install() {
 
   ################ Install ansible ########################
   # source: https://opensource.com/article/18/3/manage-workstation-ansible
-  #deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main
-  #sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
-  #sudo apt-get update
-  #sudo apt-get install ansible
-  #sudo ansible-pull -U https://github.com/nebulak/riot-ansible.git
-  
   deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main
-  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
-  apt-get update
-  apt-get install ansible
-  ansible-pull -U https://github.com/nebulak/riot-ansible.git
+  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+  sudo apt-get update
+  sudo apt-get install ansible
+  sudo ansible-pull -U https://github.com/nebulak/riot-ansible.git
+  
 }
 
 # update riot script
