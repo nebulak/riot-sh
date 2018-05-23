@@ -1,5 +1,11 @@
 # riot-sh
 
+## Requirements
+
+  * User with sudo-privileges
+  * dependencies:
+    * git
+
 ## TODOs
 
 #### Self-update
