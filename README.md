@@ -17,6 +17,7 @@
     - [ ] GUI and reminder for restic
   - [ ] syncthing
   - [ ] gocryptfs
+  - [ ] Magic Wormhole for encrypted file transfer
   - [ ] Launcher
   
 
