@@ -19,6 +19,7 @@
   - [ ] gocryptfs
   - [ ] Magic Wormhole for encrypted file transfer
   - [ ] Launcher
+  - [ ] LUKS OpenPGP smartcard setup
   
 
 ## TODOs
