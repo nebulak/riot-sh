@@ -15,7 +15,7 @@
     - [ ] GnuPG pinentry integration
   - [x] restic for encrypted backups
     - [ ] GUI and reminder for restic
-  - [ ] syncthing
+  - [x] syncthing
   - [ ] gocryptfs
   - [x] Magic Wormhole for encrypted file transfer
   - [ ] Launcher
