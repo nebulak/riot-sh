@@ -10,8 +10,8 @@
 
   - [x] TorBrowser
   - [x] OpenPGP and tor for email(thunderbird + enigmail + torbirdy)
-  - [ ] Gajim with OMEMO support
-  - [ ] Onion-Gajim (Gajim over tor using torjail)
+  - [x] Gajim with OMEMO support
+  - [x] Onion-Gajim (Gajim over tor using torjail)
   - [x] KeepassXC
     - [ ] GnuPG pinentry integration
   - [x] restic for encrypted backups
@@ -19,7 +19,7 @@
   - [x] syncthing
   - [x] gocryptfs
   - [x] Magic Wormhole for encrypted file transfer
-  - [ ] tox for VoIP & video-chat
+  - [ ] qtox for VoIP & video-chat
   - [ ] Launcher
   - [ ] LUKS OpenPGP smartcard setup
 
