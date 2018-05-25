@@ -10,6 +10,7 @@
 
   - [x] TorBrowser
   - [x] OpenPGP and tor for email(thunderbird + enigmail + torbirdy)
+  - [ ] Gajim with OMEMO support
   - [ ] Onion-Gajim (Gajim over tor using torjail)
   - [x] KeepassXC
     - [ ] GnuPG pinentry integration
