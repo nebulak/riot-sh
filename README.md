@@ -6,7 +6,7 @@
   * dependencies:
     * git
 
-# Features
+# Features/Roadmap
 
   - [x] TorBrowser
   - [x] OpenPGP and tor for email(thunderbird + enigmail + torbirdy)
@@ -17,10 +17,10 @@
     - [ ] GUI and reminder for restic
   - [ ] syncthing
   - [ ] gocryptfs
-  - [ ] Magic Wormhole for encrypted file transfer
+  - [x] Magic Wormhole for encrypted file transfer
   - [ ] Launcher
   - [ ] LUKS OpenPGP smartcard setup
-  
+
 
 ## TODOs
 
