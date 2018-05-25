@@ -6,6 +6,20 @@
   * dependencies:
     * git
 
+# Features
+
+  - [x] TorBrowser
+  - [x] OpenPGP and tor for email(thunderbird + enigmail + torbirdy)
+  - [ ] Onion-Gajim (Gajim over tor using torjail)
+  - [x] KeepassXC
+    - [ ] GnuPG pinentry integration
+  - [x] restic for encrypted backups
+    - [ ] GUI and reminder for restic
+  - [ ] syncthing
+  - [ ] gocryptfs
+  - [ ] Launcher
+  
+
 ## TODOs
 
 #### Self-update
