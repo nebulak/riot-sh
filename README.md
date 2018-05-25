@@ -19,6 +19,7 @@
   - [x] syncthing
   - [x] gocryptfs
   - [x] Magic Wormhole for encrypted file transfer
+  - [ ] tox for VoIP & video-chat
   - [ ] Launcher
   - [ ] LUKS OpenPGP smartcard setup
 
