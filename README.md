@@ -16,7 +16,7 @@
   - [x] restic for encrypted backups
     - [ ] GUI and reminder for restic
   - [x] syncthing
-  - [ ] gocryptfs
+  - [x] gocryptfs
   - [x] Magic Wormhole for encrypted file transfer
   - [ ] Launcher
   - [ ] LUKS OpenPGP smartcard setup
