@@ -53,7 +53,7 @@ install() {
   sudo apt-get update
   sudo apt-get install ansible
   echo $(whoami)
-  sudo ansible-pull -U https://github.com/nebulak/riot-ansible.git -e "working_user=$(whoami)"
+  sudo ansible-pull -U https://github.com/nebulak/riot-ansible.git -e "working_user=$(whoami)" --verify-commit
   
 }
 
