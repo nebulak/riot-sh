@@ -8,7 +8,6 @@
 
 ## Installation
 
-
 # Features
 ## Apps & App Hardening
 
@@ -38,9 +37,3 @@
 ## September
   - [ ] LUKS OpenPGP smartcard setup
 
-#### README
-
-  * installation instructions
-  * features
-  * screenshots
-  * documentation
