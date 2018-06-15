@@ -23,15 +23,19 @@
 
 
 # Roadmap
-
+## July
+  - [ ] Switch to KeePass + KeePassHTTP
+    - [ ] GnuPG pinentry integration(https://github.com/nebulak/pinentry-kphttp)
   - Signed riot.sh & Ansible Repository
   - Automatic riot.sh install & update
-  - KeepassXC
-    - [ ] GnuPG pinentry integration
+
+## August
   - restic for encrypted backups
     - [ ] GUI and reminder for restic
-  - [ ] qtox for VoIP & video-chat
+  - [ ] ring.cx for audio calls
   - [ ] Launcher
+
+## September
   - [ ] LUKS OpenPGP smartcard setup
 
 #### README
