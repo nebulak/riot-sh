@@ -1,5 +1,7 @@
 # riot-sh
 
+**Status:** experimental/unstable
+
 ## Requirements
 
   * User with sudo-privileges
