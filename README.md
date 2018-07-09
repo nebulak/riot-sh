@@ -11,6 +11,9 @@
 ## Installation
 
 # Features
+
+  * x86 & x86_64 support
+
 ## Apps & App Hardening
 
   - TorBrowser
@@ -29,13 +32,12 @@
     - [ ] GnuPG pinentry integration(https://github.com/nebulak/pinentry-kphttp)
   - Signed riot.sh & Ansible Repository
   - Automatic riot.sh install & update
-
-## August
+  - x86 support
+  - KeepassXC
+    - [ ] GnuPG pinentry integration
   - restic for encrypted backups
     - [ ] GUI and reminder for restic
-  - [ ] ring.cx for audio calls
   - [ ] Launcher
 
 ## September
   - [ ] LUKS OpenPGP smartcard setup
-
