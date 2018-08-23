@@ -36,9 +36,10 @@
   - [ ] Keepass
     - [ ] GnuPG pinentry integration
     - [ ] KeeOTP (https://bitbucket.org/devinmartin/keeotp/wiki/Home)
-    - [ ] KeepassHTTP (https://github.com/pfn/keepasshttp)
-    - [ ] Favicon downloader (https://github.com/navossoc/KeePass-Yet-Another-Favicon-Downloader)
+    - [x] KeepassHTTP (https://github.com/pfn/keepasshttp)
+    - [x] Favicon downloader (https://github.com/navossoc/KeePass-Yet-Another-Favicon-Downloader)
     - [ ] Thunderbird integration(passifox)
+    - [ ] Firefox integration (https://addons.mozilla.org/de/firefox/addon/keepasshttp-connector/?src=recommended)
   - restic for encrypted backups
     - [ ] GUI and reminder for restic
   - [ ] Launcher
