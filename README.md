@@ -41,4 +41,5 @@
     - [ ] Thunderbird integration(passifox)
     - [ ] Firefox integration (https://addons.mozilla.org/de/firefox/addon/keepasshttp-connector/?src=recommended)
   - [ ] restic for encrypted backups
+  - [ ] secure gpg.conf
   
