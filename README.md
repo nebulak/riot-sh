@@ -26,7 +26,7 @@
 
 
 # Roadmap
-## August v0.3
+## Release 1.0
   - [x] XFCE modernize style
   - [ ] Switch to KeePass + KeePassHTTP
     - [ ] GnuPG pinentry integration(https://github.com/nebulak/pinentry-kphttp)
@@ -35,14 +35,10 @@
   - [x] x86 support
   - [ ] Keepass
     - [ ] GnuPG pinentry integration
-    - [ ] KeeOTP (https://bitbucket.org/devinmartin/keeotp/wiki/Home)
+    - [x] KeeOTP (https://bitbucket.org/devinmartin/keeotp/wiki/Home)
     - [x] KeepassHTTP (https://github.com/pfn/keepasshttp)
     - [x] Favicon downloader (https://github.com/navossoc/KeePass-Yet-Another-Favicon-Downloader)
     - [ ] Thunderbird integration(passifox)
     - [ ] Firefox integration (https://addons.mozilla.org/de/firefox/addon/keepasshttp-connector/?src=recommended)
-  - restic for encrypted backups
-    - [ ] GUI and reminder for restic
-  - [ ] Launcher
-
-## September v0.4
-  - [ ] LUKS OpenPGP smartcard setup
+  - [ ] restic for encrypted backups
+  
