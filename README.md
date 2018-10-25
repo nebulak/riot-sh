@@ -34,7 +34,7 @@
   - [ ] Automatic riot.sh install & update
   - [x] x86 support
   - [ ] gocryptfs
-  - [ ]NeutronBackup
+  - [ ] NeutronBackup
     - [x] restic for encrypted backups
   - [x] secure gpg.conf
   
