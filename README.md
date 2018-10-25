@@ -29,7 +29,7 @@
 ## Release 0.1
   - [x] XFCE modernize style
   - [x] KeePassXC
-    - [ ] KeePassXC-Browser
+    - [x] KeePassXC-Browser
   - [ ] Signed riot.sh & Ansible Repository
   - [ ] Automatic riot.sh install & update
   - [x] x86 support
