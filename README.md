@@ -26,21 +26,19 @@
 
 
 # Roadmap
-## Release 1.0
+## Release 0.1
   - [x] XFCE modernize style
-  - [ ] Switch to KeePass + KeePassHTTP
-    - [ ] GnuPG pinentry integration(https://github.com/nebulak/pinentry-kphttp)
+  - [ ] KeePassXC
+    - [ ] KeePassXC-Browser
   - [ ] Signed riot.sh & Ansible Repository
   - [ ] Automatic riot.sh install & update
   - [x] x86 support
-  - [ ] Keepass
-    - [ ] GnuPG pinentry integration
-    - [x] KeeOTP (https://bitbucket.org/devinmartin/keeotp/wiki/Home)
-    - [x] KeepassHTTP (https://github.com/pfn/keepasshttp)
-    - [x] Favicon downloader (https://github.com/navossoc/KeePass-Yet-Another-Favicon-Downloader)
-    - [ ] Thunderbird integration(passifox)
-    - [ ] Firefox integration (https://addons.mozilla.org/de/firefox/addon/keepasshttp-connector/?src=recommended)
-  - [ ] restic for encrypted backups
+  - [ ] gocryptfs
+  - [ ]NeutronBackup
+    - [ ] restic for encrypted backups
   - [x] secure gpg.conf
   - [ ] add USB protection (https://github.com/cryptolok/USBlok)
+  
+## Release 1.1
+  - [ ] KeePassXC-Pinentry for gnupg
   
