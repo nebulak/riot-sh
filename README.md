@@ -35,10 +35,10 @@
   - [x] x86 support
   - [ ] gocryptfs
   - [ ]NeutronBackup
-    - [ ] restic for encrypted backups
+    - [x] restic for encrypted backups
   - [x] secure gpg.conf
-  - [ ] add USB protection (https://github.com/cryptolok/USBlok)
   
-## Release 1.1
+  
+## Release 0.2
   - [ ] KeePassXC-Pinentry for gnupg
-  
+  - [ ] add USB protection (https://github.com/cryptolok/USBlok)
