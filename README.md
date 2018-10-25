@@ -28,7 +28,7 @@
 # Roadmap
 ## Release 0.1
   - [x] XFCE modernize style
-  - [ ] KeePassXC
+  - [x] KeePassXC
     - [ ] KeePassXC-Browser
   - [ ] Signed riot.sh & Ansible Repository
   - [ ] Automatic riot.sh install & update
