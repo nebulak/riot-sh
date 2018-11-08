@@ -40,5 +40,4 @@
   
   
 ## Release 0.2
-  - [ ] KeePassXC-Pinentry for gnupg
   - [ ] add USB protection (https://github.com/cryptolok/USBlok)
