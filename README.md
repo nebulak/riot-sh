@@ -37,6 +37,8 @@
   - [ ] NeutronBackup
     - [x] restic for encrypted backups
   - [x] secure gpg.conf
+  - [ ] Sparkleshare & Flatpak
+  - [ ] remove syncthing
   
   
 ## Release 0.2
