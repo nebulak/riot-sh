@@ -38,13 +38,7 @@ install() {
   # //TODO: ....
 
   ############### Core Dependencies #######################
-  # //TODO: add user to sudoers
-  # source: https://unix.stackexchange.com/questions/354928/bash-sudo-command-not-found
-  #su -
-  #apt-get install sudo -y
-  # todo: ask for username
-  #usermod -aG sudo yourusername
-  # todo: reboot machine
+  apt-get -y install git
 
   ################ Install ansible ########################
   # source: https://opensource.com/article/18/3/manage-workstation-ansible
